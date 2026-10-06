@@ -19,6 +19,7 @@ html {
     font-weight: 600;
     color: #fff;
     transition: all 0.3s ease-in-out;
+    width: fit-content;
 }
 
 .btn:hover {
@@ -77,13 +78,14 @@ html {
     gap: 24px;
 }
 
-.header__item {
+.header__item > a {
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    color: #FDFDFD;
 }
 
-.header__item:hover {
+.header__item > a:hover {
     color: #F2BE22;
 }
 
@@ -329,12 +331,13 @@ html {
     gap: 16px;
 }
 
-.footer-wrapper__item {
+.footer-wrapper__item > a {
     font-size: 14px;
+    color: #FDFDFD;
     transition: all 0.3s ease-in-out;
 }
 
-.footer-wrapper__item:hover {
+.footer-wrapper__item > a:hover {
     color: #F2BE22;
     cursor: pointer;
 }
