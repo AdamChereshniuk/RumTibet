@@ -13,6 +13,7 @@ html {
 }
 
 .btn {
+    display: block;
     padding: 12px 24px;
     border-radius: 4px;
     background-color: #1A3E3E;
@@ -97,6 +98,10 @@ html {
 
 .hero-section > .container, .hero__body {
     height: 100%;
+    padding: 100px 15px;
+}
+
+.hero__body {
     padding: 100px 0;
 }
 

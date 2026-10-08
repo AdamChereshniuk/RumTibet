@@ -1,0 +1,288 @@
+@media (max-width: 1200px) {
+    .section-offset {
+        padding: 60px 0 80px;
+    }
+
+    .suptitle {
+        font-size: 22px;
+    }
+
+    .title {
+        font-size: 28px;
+    }
+
+    .text {
+        margin: 20px 0;
+        font-size: 16px;
+    }
+
+    /* Header */
+    .header__btn {
+        display: none;
+    }
+
+    /* About */
+    .about__inner {
+        gap: 36px;
+    }
+
+    .about__img {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    /* Programms */
+    .programms__img {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    /* Blog */
+    .blog__list {
+        margin: 40px 0;
+    }
+
+    .blog__item {
+        gap: 20px;
+    }
+
+    .blog__item-img {
+        width: 100%;
+        max-width: 180px;
+    }
+
+    .blog__item-title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 960px) {
+    /* Header */
+    .header__item > a {
+        font-size: 16px;
+    }
+
+    /* Hero */
+    .hero__title {
+        font-size: 36px;
+    }
+
+    .hero__body {
+        padding: 60px 0;
+    }
+
+    /* About */
+    .about__inner {
+        gap: 24px;
+    }
+
+    .about__img {
+        max-width: 330px;
+    }
+
+    /* Programms */
+    .programms__img {
+        display: none;
+    }
+
+    .programms__text {
+        width: 100%;
+        max-width: 600px;
+    }
+
+    /* Populars */
+    .populars__list {
+        margin: 30px 0;
+    }
+
+    /* Blog */
+    .blog__list {
+        grid-template-columns: 1fr;
+        margin: 20px 0;
+    }
+
+    .blog__item {
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .blog__item-img {
+        max-width: 200px;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 60px 0;
+    }
+
+    .footer__inner {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-wrapper:nth-child(2) {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .suptitle {
+        font-size: 20px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .text {
+        margin: 15px 0;
+        font-size: 14px;
+    }
+
+    /* Header */
+    .header__inner {
+        flex-direction: column;
+    }
+
+    /* Hero */
+    .hero__title {
+        font-size: 32px;
+    }
+
+    .hero__body {
+        padding: 100px 0;
+    }
+
+    /* About */
+    .about__img {
+        display: none;
+    }
+
+    .about__content {
+        width: 100%;
+        max-width: 450px;
+    }
+
+    /* Populars */
+    .populars__list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Gallery */
+    .gallery__img {
+        margin: 25px 0;
+    }
+}
+
+@media (max-width: 640px) {
+    /* Header */
+    .header__nav {
+        display: none;
+    }
+
+    /* Hero */
+    .first-screen, .hero-section, .hero-section > .container, .hero__body {
+        height: auto;
+    }
+
+    .hero-section > .container {
+        padding: 80px 15px;
+    }
+
+    .hero__body {
+        padding: 0;
+    }
+
+    .hero__title {
+        font-size: 28px;
+    }
+
+    /* Programms */
+    .programms__list {
+        gap: 20px;
+    }
+
+    .programms__item {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    /* Blog */
+    .blog__item {
+        padding: 24px;
+    }
+
+    .blog__item-img {
+        display: none;
+    }
+
+    /* Footer */
+    .footer__inner {
+        grid-template-columns: 1fr;
+        gap: 52px;
+    }
+
+    .footer-left__text {
+        margin-bottom: 20px;
+    }
+
+    .footer-wrapper {
+        gap: 10px;
+    }
+
+    .footer-wrapper__list {
+        gap: 6px;
+    }
+
+    .footer-wrapper:nth-child(2) {
+        display: flex;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-offset {
+        padding: 60px 0;
+    }
+    .suptitle {
+        font-size: 18px;
+    }
+
+    .title {
+        font-size: 22px;
+    }
+
+    .btn {
+        font-size: 16px;
+    }
+    
+    /* Hero */
+    .hero-section > .container {
+        padding: 60px 15px;
+    }
+
+    .hero__title {
+        font-size: 20px;
+    }
+    
+    /* Populars */
+    .populars__list {
+        grid-template-columns: 1fr;
+        margin: 20px 0;
+    }
+
+    .populars__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Gallery */
+    .gallery__img {
+        margin: 15px 0;
+    }
+
+    /* Blog */
+    .blog__item {
+        padding: 16px;
+    }
+}
